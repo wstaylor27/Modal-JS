@@ -9,26 +9,29 @@ body {
 }
 
 header {
+    display: flex;
     justify-content: space-between;
     background-color: white;
     margin: 0px 20px;
     margin-top: 20px;
-    justify-content: space-between;
+    align-items: center;
+    padding: 2%
 }
 
-header h1 {
-    display: flex;
-}
 
 nav {
     display: flex;
 }
 
-
 nav ul {
     display: inherit;
     justify-content: space-between;
-    min-width: 250px
+    min-width: 250px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 .banner {
@@ -37,4 +40,5 @@ nav ul {
     background-position: center;
     background-size: cover;
     height: 300px;
+    margin: 0px 20px;
 }
