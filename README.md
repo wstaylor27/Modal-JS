@@ -1,1 +1,1 @@
-# Modal-Project
+# Modal-JS
