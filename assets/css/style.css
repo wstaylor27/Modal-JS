@@ -6,3 +6,11 @@ header {
     background-color: white;
     margin: 20px;
 }
+
+.banner {
+    display: flex;
+    background-image: url(../images/mike-kononov-lFv0V3_2H6s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
