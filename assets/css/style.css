@@ -36,6 +36,10 @@ nav a {
     color:black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .banner {
     display: flex;
     background-image: url(../images/mike-kononov-lFv0V3_2H6s-unsplash.jpg);
