@@ -9,14 +9,14 @@
 body {
     background-color: rgb(236, 236, 236);
     font-family: 'Offside', cursive;
+    margin: 0 20px;
+    margin-top: 20px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    margin: 0px 20px;
-    margin-top: 20px;
     align-items: center;
     padding: 2%
 }
@@ -49,7 +49,6 @@ a:hover {
     background-position: center;
     background-size: cover;
     height: 300px;
-    margin: 0px 20px;
 }
 
 .intro {
@@ -57,7 +56,6 @@ a:hover {
     width: 100%;
     padding: 2%;
     background-color: white;
-    margin: 0px 20px;
 }
 
 .intro-text {
