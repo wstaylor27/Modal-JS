@@ -54,10 +54,15 @@ a:hover {
 
 .intro {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     padding: 2%;
     background-color: white;
     margin: 0px 20px;
+}
+
+.intro-text {
+    display: inline-block;
+    width:50%;
 }
 .intro h2 {
     margin-bottom: 15px;
