@@ -51,3 +51,8 @@ a:hover {
     height: 300px;
     margin: 0px 20px;
 }
+
+section {
+    background-color: white;
+    margin: 0px 20px;
+}
