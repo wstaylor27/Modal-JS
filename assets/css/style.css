@@ -85,3 +85,9 @@ a:hover {
 .content h2 {
     margin-bottom: 15px;
 }
+
+.content-img{
+    width: 42%;
+    float: left;
+    margin: 2%;
+}
