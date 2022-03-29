@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
     <link rel="stylesheet" href="./assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Tracker</title>
@@ -23,13 +28,24 @@
     </header>
     <div class="banner"></div>
 
-    <main class="container">
+    <main class="container-fluid">
         <div class="row">
             <section class="col-12 col-md 4 col-lg-3">
                 <div class="card custom-card">
                     <h3 class="card-header">
                         Instructions
                     </h3>
+                    <div class="card-body">
+                        <div class="card-text">
+                            Click the button below to open a form and provide information for the following:
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Project Name</li>
+                        <li class="list-group-item">Project Type</li>
+                        <li class="list-group-item">Due Date</li>
+                        <li class="list-group-item">Hourly Rate</li>
+                    </ul>
                 </div>
             </section>
         </div>
