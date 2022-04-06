@@ -2,7 +2,7 @@ const dateElement = document.getElementById("date");
 const saveElements = document.getElementsByClassName("save");
 const contentElements = document.getElementsByClassName("content");
 
-//save reference to important DOM elements
+// save reference to important DOM elements
 var timeDisplayEl = S("#time-display");
 var projectDisplayEl = $("#project-display");
 var projectModalEl = $("#project-modal");
@@ -11,3 +11,11 @@ var projectNameInputEl = $("#project-name-input");
 var projectTypeInputEl = $("#project-type-input");
 var hourlyRateInputEl = $("#hourly-rate-input");
 var dueDateInputEl = $("#due-date-input");
+
+// handle displaying the time
+function displayTime() {
+  var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ssa");
+  timeDisplayEl.text(rightNow);
+}
+
+//
