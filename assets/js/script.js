@@ -55,3 +55,15 @@ function printProjectData(name, type, hourlyRate, dueDate) {
 
   projectModalEl.modal("hide");
 }
+
+function calculateTotalEarnings(rate, days) {
+  var dailyTotal = rate * 8;
+  var total = dailyTotal * days;
+  return total;
+}
+
+function handleDeleteProject(event) {
+  console.log(event.target);
+  var btnClicked = $(event.target);
+  btnClicked.parent("tr").remove();
+}
