@@ -67,3 +67,17 @@ function handleDeleteProject(event) {
   var btnClicked = $(event.target);
   btnClicked.parent("tr").remove();
 }
+
+// handle project form submission
+function handleProjectFormSubmit(event) {
+  event.preventDefault();
+
+  var projectName = projectNameInputEl.val().trim();
+  var projectType = projectTypeInputEl.val().trim();
+  var hourlyRate = hourlyRateInputEl.val().trim();
+  var dueDate = dueDateInputEl.val().trim();
+
+  printProjectData(projectName, projectType, hourlyRate, dueDate);
+
+  projectFormEl[0].reset();
+}
