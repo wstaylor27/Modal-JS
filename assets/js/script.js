@@ -14,7 +14,7 @@ var dueDateInputEl = $("#due-date-input");
 
 // handle displaying the time
 function displayTime() {
-  var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ssa");
+  var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ss a");
   timeDisplayEl.text(rightNow);
 }
 
@@ -40,7 +40,7 @@ function printProjectData(name, type, hourlyRate, dueDate) {
     .addClass("p-2 delete-project-btn text-center")
     .text("X");
 
-  // By listing each '<td>' variable as an argument, each one will be appended in that order
+  // By listing each `<td>` variable as an argument, each one will be appended in that order
   projectRowEl.append(
     projectNameTdEl,
     projectTypeTdEl,
