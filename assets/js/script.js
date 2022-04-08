@@ -3,7 +3,7 @@ const saveElements = document.getElementsByClassName("save");
 const contentElements = document.getElementsByClassName("content");
 
 // save reference to important DOM elements
-var timeDisplayEl = S("#time-display");
+var timeDisplayEl = $("#time-display");
 var projectDisplayEl = $("#project-display");
 var projectModalEl = $("#project-modal");
 var projectFormEl = $("#project-form");
